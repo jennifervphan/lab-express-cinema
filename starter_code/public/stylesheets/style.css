@@ -1,0 +1,83 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: white;
+  margin: 0;
+  padding: 0; }
+
+a {
+  color: #00B7FF; }
+
+.background {
+  background-image: url("/images/cinema.jpg");
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-attachment: scroll;
+  background-size: 100% auto;
+  min-width: 100vw;
+  min-height: 100vh; }
+
+.index-container {
+  padding-top: 170px;
+  width: 40%;
+  float: right;
+  display: flex;
+  flex-direction: column; }
+
+.index-container p {
+  color: white;
+  font-size: 100px;
+  font-weight: bold; }
+
+.index-container p,
+a {
+  margin: 0; }
+
+.index-container button {
+  width: 280px;
+  font-size: 20px;
+  padding: 15px;
+  color: #00B7FF;
+  border-radius: 30px; }
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  width: 100%; }
+
+.flex-container div {
+  width: 30%;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.title {
+  padding-left: 100px; }
+
+.movie-flex {
+  margin: 50px; }
+
+.movie-flex img {
+  width: 300px; }
+
+.movie-flex div {
+  float: left; }
+
+.movie-flex div.details {
+  padding-left: 30px;
+  width: 60%; }
+
+.showtimes {
+  display: flex; }
+
+.times {
+  padding: 0 10px;
+  border-right: solid 1px black; }
+
+/*# sourceMappingURL=style.css.map */
